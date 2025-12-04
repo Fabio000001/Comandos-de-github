@@ -1,0 +1,6 @@
+git init
+git add <ruta archivo/directorio>
+git commit -m "<mensaje>"
+git branch -M main
+git remote add <nombre repo remoto> <ruta repo remoto>
+git push -u <nombre repo remoto> <rama>
