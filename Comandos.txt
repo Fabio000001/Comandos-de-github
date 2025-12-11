@@ -4,6 +4,10 @@ git commit -m "<mensaje>"
 git branch -M main
 git remote add <nombre_repo_remoto> <ruta_repo_remoto>
 git push -u <nombre_repo_remoto> <rama>
+git fetch
+git pull
 git status
 git log --oneline
 git checkout
+git reset --<soft/hard> HEAD~<número_retrocesos>
+git commit --amend
