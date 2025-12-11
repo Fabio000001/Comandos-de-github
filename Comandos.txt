@@ -1,6 +1,9 @@
 git init
-git add <ruta archivo/directorio>
+git add <ruta_archivo/directorio>
 git commit -m "<mensaje>"
 git branch -M main
-git remote add <nombre repo remoto> <ruta repo remoto>
-git push -u <nombre repo remoto> <rama>
+git remote add <nombre_repo_remoto> <ruta_repo_remoto>
+git push -u <nombre_repo_remoto>_<rama>
+git status
+git log --oneline
+git checkout
